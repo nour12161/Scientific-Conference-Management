@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetjava2.interfaceComScController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="690.0" prefWidth="258.0" spacing="30.0" style="-fx-background-color: black; -fx-background-radius: 15;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/kisspng-international-conference-microphone-learning-conve-service-catalog-academic-technologies-the-george-w-5d3d2e31b39565.4463062415642906097356.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnajoutconf" mnemonicParsing="false" text="voir les conférences" />
+            <Button fx:id="btnGererInvites" mnemonicParsing="false" text="imprimer l'appel à la participation" />
+            <Button fx:id="BtnAjouterInvite" mnemonicParsing="false" text="voir les conférenciers invités" />
+            <Button fx:id="btnAffecterArticle" mnemonicParsing="false" text="évaluer un article" />
+            <Button fx:id="btnAjouterArticle" mnemonicParsing="false" text="déconnexion" />
+         </children>
+      </VBox>
+   </left>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <center>
+      <AnchorPane fx:id="mainAnchorPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #bcbcbc; -fx-background-radius: 15;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="10.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </center>
+</BorderPane>

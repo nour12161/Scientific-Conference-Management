@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="670.4" prefWidth="735.2" style="-fx-background-color: #bcbcbc; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="671.0" prefWidth="738.0" spacing="8.0">
+         <children>
+            <VBox>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="240.0">
+                     <children>
+                        <Label prefHeight="47.0" prefWidth="360.0" text="Articles">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/kisspng-international-conference-microphone-learning-conve-service-catalog-academic-technologies-the-george-w-5d3d2e31b39565.4463062415642906097356.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="0.0" prefWidth="566.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="558.0" prefWidth="738.0" spacing="8.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="82.0" text="auteurs" />
+                              <TableView prefHeight="82.0" prefWidth="230.0">
+                                <columns>
+                                  <TableColumn prefWidth="75.0" text="Nom" />
+                                  <TableColumn prefWidth="75.0" text="Mail" />
+                                    <TableColumn prefWidth="75.0" text="Institut" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="90.0" text="Titre de l'article" />
+                              <TextField prefHeight="60.0" prefWidth="173.0" />
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="125.0" text="Titre de la conférence" />
+                              <TextField editable="false" prefHeight="60.0" prefWidth="150.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="124.0" text="Nom d'auteur" />
+                              <TextField fx:id="nomAuteur" />
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="115.0" text="Mail d'auteur" />
+                              <TextField fx:id="mailAuteur" />
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="136.0" text="institut d'auteur" />
+                              <TextField fx:id="institutAuteur" />
+                           </children>
+                        </VBox>
+                        <Button fx:id="bntAjouter" mnemonicParsing="false" onAction="#ajouterAuteur" text="Ajouter" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <VBox />
+                        <VBox>
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="138.0" text="Conférences" />
+                              <ListView prefHeight="200.0" prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                        <VBox />
+                     </children>
+                  </HBox>
+                  <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="161.0" text="Soumettre l'article" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

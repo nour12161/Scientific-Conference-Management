@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="670.4" prefWidth="735.2" style="-fx-background-color: #bcbcbc; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetjava2.affecterArticleController">
+   <children>
+      <VBox prefHeight="671.0" prefWidth="738.0" spacing="8.0">
+         <children>
+            <VBox>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="240.0">
+                     <children>
+                        <Label prefHeight="47.0" prefWidth="366.0" text="Affecter un article">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/kisspng-international-conference-microphone-learning-conve-service-catalog-academic-technologies-the-george-w-5d3d2e31b39565.4463062415642906097356.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="0.0" prefWidth="566.0" />
+               </children>
+            </VBox>
+            <Label prefHeight="18.0" prefWidth="56.0" text="retour">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" style="-fx-background-color: bcbcbc;">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="542.0" prefWidth="738.0" spacing="30.0">
+                     <children>
+                        <Label text="Veuillez selectionner un article">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="tableViewA" prefHeight="87.0" prefWidth="338.0">
+                          <columns>
+                            <TableColumn fx:id="titreColumn" prefWidth="75.0" text="Titre" />
+                            <TableColumn fx:id="auteursColumn" prefWidth="75.0" text="Auteurs" />
+                              <TableColumn fx:id="cheminPdfColumn" prefWidth="75.0" text="Chemin pdf" />
+                              <TableColumn fx:id="statutColumn" prefWidth="75.0" text="Statut" />
+                          </columns>
+                        </TableView>
+                        <Label text="Article selectionné">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="articleField" editable="false" style="-fx-background-radius: 15;" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutX="500.0" prefHeight="108.0" prefWidth="738.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="368.0" text="membre commité scientifique">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="tableViewC" prefHeight="118.0" prefWidth="738.0">
+                           <columns>
+                              <TableColumn fx:id="nomColumn" prefWidth="75.0" text="Nom" />
+                              <TableColumn fx:id="mailColumn" prefWidth="75.0" text="Mail" />
+                              <TableColumn fx:id="institutColumn" prefWidth="75.0" text="Institut" />
+                           </columns>
+                        </TableView>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="50.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="542.0" prefWidth="738.0">
+                     <children>
+                        <Label text="Membre selectionné">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="membreField" editable="false" style="-fx-background-radius: 15;" />
+                     </children>
+                  </VBox>
+                  <Button fx:id="btnaffecterInvite" mnemonicParsing="false" style="-fx-background-radius: 15;" text="Affecter" />
+               </children>
+            </VBox>
+            <ImageView fitHeight="59.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/93634.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="569.0" prefWidth="107.0">
+               <VBox.margin>
+                  <Insets left="200.0" right="200.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

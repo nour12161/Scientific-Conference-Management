@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="670.4" prefWidth="735.2" style="-fx-background-color: #bcbcbc; -fx-background-radius: 15;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetjava2.soumettreArticleController">
+   <children>
+      <VBox prefHeight="671.0" prefWidth="738.0" spacing="8.0">
+         <children>
+            <VBox>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="240.0">
+                     <children>
+                        <Label prefHeight="47.0" prefWidth="360.0" text="Ajouter un article">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../Downloads/kisspng-international-conference-microphone-learning-conve-service-catalog-academic-technologies-the-george-w-5d3d2e31b39565.4463062415642906097356.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="0.0" prefWidth="566.0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="558.0" prefWidth="738.0" spacing="8.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="veuillez selectionner une conférence">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="listeConference" prefHeight="107.0" prefWidth="551.0" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets top="50.0" />
+                     </opaqueInsets>
+                  </VBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="82.0" text="Titre" />
+                              <TextField fx:id="titre" prefHeight="34.0" prefWidth="174.0" />
+                              <Label prefHeight="18.0" prefWidth="82.0" text="Description" />
+                              <TextArea fx:id="description" prefHeight="200.0" prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="62.0" prefWidth="100.0">
+                           <children>
+                              <TextField fx:id="nomAuteur" promptText="Nom" />
+                              <TextField fx:id="mailAuteur" promptText="Mail" />
+                              <TextField fx:id="institutAuteur" promptText="institut" />
+                           </children>
+                        </VBox>
+                        <Button fx:id="btnAjouterAuteur" mnemonicParsing="false" onAction="#ajouterAuteur" text="Ajouter l'auteur" />
+                        <VBox prefHeight="100.0" prefWidth="142.0">
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="124.0" text="Auteurs" />
+                              <ListView fx:id="listeAuteurs" prefHeight="200.0" prefWidth="200.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="138.0" text="Document PDF" />
+                              <Button fx:id="btnAjouterPdf" mnemonicParsing="false" onAction="#getPdf" text="importer in fichier" />
+                              <TextField fx:id="pathField" editable="false" />
+                           </children>
+                        </VBox>
+                        <VBox />
+                     </children>
+                  </HBox>
+                  <Button fx:id="soumettre" mnemonicParsing="false" onAction="#soumettreArticle" text="Ajouter un Article" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

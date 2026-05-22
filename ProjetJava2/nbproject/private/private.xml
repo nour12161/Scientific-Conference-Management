@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/ProjetJava2.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/affecterArticle.fxml</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/gererInvites.fxml</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/gererInviteController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/loginSCController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/interfaceAuteurController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/ComiteOrganisateur.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/interfaceComScController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/Auteur.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/ModePaiement.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/Article.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/ajouterInviteController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/FXMLDocument.fxml</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/affecterArticleController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/soumettreArticleController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/Controller/connexion.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/Personne.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/loginController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/ComiteScientifique.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/ConferencierInvite.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/soumettreArticle.fxml</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/President.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/AjouterConfController.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/PersonneStringConverter.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/interfaceComSc.fxml</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/Conference.java</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/loginSC.fxml</file>
+            <file>file:/C:/Users/LENOVO/OneDrive/Documents/NetBeansProjects/ProjetJava2/src/projetjava2/models/Participant.java</file>
+        </group>
+    </open-files>
+</project-private>
